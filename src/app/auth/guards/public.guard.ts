@@ -2,7 +2,6 @@ import { Injectable } from '@angular/core';
 import { ActivatedRouteSnapshot, CanActivate, CanMatch, Route, Router, RouterStateSnapshot, UrlSegment } from '@angular/router';
 import { Observable, map, tap } from 'rxjs';
 import { AuthService } from '../services/auth.service';
-import { isFormArray } from '@angular/forms';
 
 @Injectable({
   providedIn: 'root'
